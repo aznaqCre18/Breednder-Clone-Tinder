@@ -1,0 +1,23 @@
+.ibu {
+    position: relative;
+}
+
+.alert-pay {
+    font-size: 15px;
+    width: 700px;
+    position: absolute;
+    left: -850px;
+    top: 300px;
+}
+
+.button-payment {
+        width: 200px;
+        margin: auto;
+        color: rgb(255, 107, 132);
+        font-weight: bold;
+}
+
+.button-payment:hover {
+    color: white;
+    background-color: rgb(255, 107, 132);
+}

@@ -1,0 +1,531 @@
+.background1 {
+    background-image: url(../../img/bgutama.jpg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(80px + 2vmin);
+    color: white;
+    background-size: cover;
+    position: relative;
+}
+
+.kiri1 {
+    width: 110%;
+    height: 100%;
+    background-color: #EDEDED;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    overflow: hidden;
+    z-index: 9999;
+    box-shadow: 3px 0 5px darkslategrey;
+}
+
+.navbar {
+    width: 100%;
+    background-image: linear-gradient(270deg, #EC7AB7 0%, #EC7A7A 54.71%), linear-gradient(90deg, #FFC75A 0%, #EC7A7A 50%), #EC7A7A;
+    height: 102px;
+}
+
+.profile {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .2s;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+
+}
+
+.profile:hover {
+    border: 2px solid grey;
+}
+
+.pet {
+    float: right;
+    margin-top: 8px;
+    margin-left: 60px;
+    width: 200px;
+    height: 50px; 
+}
+
+.arrow {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 50px;
+}
+
+/* .galery {
+    padding: 0;
+}
+
+.imgGalery {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} */
+
+.kartu1 {
+    margin: 15px 0 10px 30px;
+    margin: auto;
+    /* background-image: url(../../img/list/dua.jpg); */
+    background-size: cover;
+    background-position: -80px;
+    width: 120px;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.foto-galeri {
+    width: 140px;
+    height: 180px;
+    margin-left: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* .kartu2{
+    margin: 5px 0 10px 15px;
+    background-image: url(../../img/list/satu.jpg);
+    background-size: cover;
+    background-position: 0px;
+    width: 135px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.kartu3{
+    margin: 5px 0 10px 0px;
+    background-image: url(../../img/list/tiga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -100px;
+    width: 135px;
+    box-sizing: border-box;
+} */
+
+.galeri {
+    width: 80px;
+    height: 180px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* .fotoKolom {
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: -80px;
+    height: 0;
+} */
+
+.navBar {
+    height: 38px;
+    color: black;
+    font-size: 20px;
+}
+
+.navBar p {
+    margin-left: 20px;
+    line-height: 38px;
+}
+
+.garis {
+    height: 5px;
+    width: 40px;
+    margin-left: 33px;
+    background-color: rgb(238, 48, 79);
+    margin-top: -5px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.petName1 {
+    font-size: 20px;
+    background-color: none;
+    position: absolute;
+    bottom: 350px;
+    left: 40px;
+    color: red;
+}
+
+
+.petName {
+    font-size: 20px;
+    background-color: none;
+    position: absolute;
+    top: 120px;
+    left: -10px;
+}
+
+.petName p {
+    text-shadow: 2px 2px rgba(71, 61, 139, 0.424);
+    font-family: arial;
+    position: relative;
+}
+
+/* 
+.galeri-copy {
+    width: 120px;
+    margin: 0px 10px 10px 10px;
+} */
+
+.scrolll {
+    overflow: scroll;
+    height: 530px;
+    overflow: auto;
+}
+
+.kartu4 {
+    margin: 5px 0 10px 30px;
+    background-image: url(../../img/list/dua.jpg);
+    background-size: cover;
+    background-position: -80px;
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: -70px;
+    right: -180px;
+    background-position: -280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px darkslategray;
+}
+
+.preview {
+    width: 300px;
+    height: 700px;
+    position: absolute;
+    top: -1000px;
+}
+
+.kanan {
+    height: 500px;
+    position: relative;
+    width: 10p;
+}
+
+.namaHewan {
+    font-size: 60px;
+    margin-left: 10px;
+    position: absolute;
+    top: 200px;
+}
+
+.desc {
+    font-size: 12px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.breederLogo {
+    width: 18px;
+    height: 18px;
+}
+
+.arah {
+    transform: rotate(270deg);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -12px;
+    top: 100px;
+}
+
+/* icon refresh,dislike,like,reshuffel */
+.bungkus1 {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    bottom: -80px;
+    box-shadow: 5px 5px 10px darkslategray;
+    cursor: pointer;
+    transition: .3s;
+    left: 9px;
+}
+
+.bungkus2 {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: -85px;
+    box-shadow: 5px 5px 10px darkslategray;
+    cursor: pointer;
+    transition: .3s;
+    left: 83px;
+}
+
+.bungkus3 {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: -85px;
+    box-shadow: 5px 5px 10px darkslategray;
+    cursor: pointer;
+    transition: .3s;
+    left: 165px;
+}
+
+.bungkus4 {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    bottom: -80px;
+    box-shadow: 5px 5px 10px darkslategray;
+    cursor: pointer;
+    transition: .3s;
+    left: 247px;
+}
+
+.bungkus1:hover {
+    background-color: rgb(202, 202, 202);
+    transition: .3s;
+}
+
+.bungkus2:hover {
+    background-color: rgb(202, 202, 202);
+    transition: .3s;
+}
+
+.bungkus3:hover {
+    background-color: rgb(202, 202, 202);
+    transition: .3s;
+}
+
+.bungkus4:hover {
+    background-color: rgb(202, 202, 202);
+    transition: .3s;
+}
+
+
+.dislike {
+    width: 40px;
+    height: 40px;
+}
+
+.like {
+    width: 40;
+    height: 40px;
+}
+
+
+.refresh {
+    width: 35px;
+    height: 35px;
+
+}
+
+.reshuffel {
+    width: 35px;
+    height: 35px;
+}
+
+.kolomMenu {
+    position: relative;
+}
+
+.hideBtn {
+    font-size: 20px;
+    font-family: helvetica;
+    color: white;
+    display: absolute;
+    right: -300px;
+    padding: 0;
+    background-color: grey;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px darkslategrey;
+    cursor: pointer;
+}
+
+.hideBtn:hover {
+    background-color: rgb(155, 152, 152);
+}
+
+.menuButton {
+    position: absolute;
+    right: -390px;
+    width: 800px;
+    bottom: -110px;
+    height: 40px;
+}
+
+.leftButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    transform: rotate(180deg);
+}
+
+.rightButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.openButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    transform: rotate(270deg);
+}
+
+.closeButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    transform: rotate(90deg);
+}
+
+.closeButton:hover,
+.rightButton:hover,
+.leftButton:hover,
+.openButton:hover {
+    cursor: pointer;
+}
+
+.no {
+    font-size: 22px;
+    font-weight: bold;
+    color: grey;
+    position: absolute;
+    bottom: 9px;
+    right: 35px;
+    text-shadow: 1px 1px darkslategray;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.ya {
+    right: 25px;
+}
+
+.no:hover {
+    color: rgb(155, 152, 152);
+    text-shadow: none;
+}
+
+.noOpen {
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    position: absolute;
+    bottom: 3px;
+    right: 10px;
+    text-shadow: 1px 1px darkslategray;
+    cursor: pointer;
+}
+
+.noOpen:hover {
+    color: rgb(155, 152, 152);
+    text-shadow: none;
+}
+
+.input {
+    width: 100px;
+    height: 25px;
+    margin: 0;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* .input:a {
+    outline: none;
+} */
+
+.next {
+    font-size: 15px;
+    position: absolute;
+    color: grey;
+    font-weight: bold;
+    bottom: 0;
+    right: -40px;
+    text-shadow: 1px 1px darkslategray;
+    cursor: pointer;
+}
+
+.next:hover {
+    color: rgb(155, 152, 152);
+    text-shadow: none;
+}
+
+.new-div {
+    width: 130px;
+    height: 190px;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.new-foto-galeri {
+    width: 130px;
+    height: 190px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.new-foto-galeri:hover {
+    box-shadow: 0 5px 10px darkslategrey;
+}
+
+.new-pet-name {
+    font-size: 20px;
+    margin-top: -35px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.scrol {
+    overflow: hidden;
+}
+
+.scrol-in {
+    overflow: scroll;
+    height: 560px;
+    width: 110%;
+}
+
+/* .kiri2 {
+    overflow: scroll;
+}  */
+
+.prarent-bungkus {
+    position: absolute;
+    bottom: 50px;
+    left: -120px;
+}

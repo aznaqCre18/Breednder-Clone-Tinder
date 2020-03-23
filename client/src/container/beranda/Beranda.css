@@ -1,0 +1,159 @@
+
+@font-face {
+    font-family: "headName";
+    src: url('../../fonts/AmaticSC-Regular.ttf');
+}
+
+@font-face {
+    font-family: "terms";
+    src: url('../../fonts/adventpro-regular.ttf');
+}
+
+.background {
+    background-image: url(../../img/beranda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  100%;
+    box-sizing: border-box;
+}
+
+.appHeader {
+    background-image: linear-gradient(180deg, rgba(236, 122, 122, 0.483) 0%, rgba(236, 122, 183, 0.163) 100%), linear-gradient(180deg, rgba(236, 122, 122, 0.237) 0%, rgba(0, 0, 0, 0) 100%, rgba(236, 122, 183, 0) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(80px + 2vmin);
+    color: ivory;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.headName {
+    font-family: headName;
+    font-size: 90px;
+    position: absolute;
+    top: -140px;
+    right: 0;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.headName:hover {
+    color: thistle;
+}
+
+.login {
+    width: 250px;
+    height: 65px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: -115px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    color: rgb(255, 43, 78);
+}
+
+.login:hover {
+    background-image: linear-gradient(180deg, #EC7A7A 0%, #EC7AB7 100%);
+    color: white;
+}
+
+
+.slogan {
+    font-size: 6vw;
+    margin: 0;
+    color: ivory;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.terms {
+    text-align: center;
+    font-size: 17px;
+    font-family: terms;
+}
+
+.isiTerms {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.isiTerms:hover {
+    color: thistle;
+    text-decoration: none;
+}
+
+.register {
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    color: rgb(255, 43, 78);
+    font-weight: bold;
+    margin-top: 20px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.register:hover {
+    background-image: linear-gradient(180deg, #EC7A7A 0%, #EC7AB7 100%);
+    color: #fff;
+}
+
+.footer {
+    background-image: linear-gradient(180deg, #EC7A7A 0%, #EC7AB7 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 3vw;
+    line-height: 80px;
+    font-style: italic;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .background {
+        background-size: cover;
+        background-image: url(../../img/kecil.jpg);
+    }
+
+    .login {
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .headName {
+        font-size: 13vw;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .login {
+        right: 0;
+    }
+
+    .headName {
+        left: 0;
+    }
+}

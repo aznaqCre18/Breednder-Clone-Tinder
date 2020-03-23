@@ -1,0 +1,107 @@
+.profilCard1 {
+    font-size: 12px;
+    background-image: none;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    right: -132px;
+    top: 50px;
+    color: grey;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px darkslategrey;
+}
+
+/* col {
+    padding: 0px;
+} */
+
+.child-edit {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(192, 192, 192, 0.541);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.child-edit1 {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(192, 192, 192, 0.541);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.child-edit-image {
+    width: 100%;
+    height:100%;
+}
+
+.parrent-plus {
+    position: relative;
+}
+
+.plus {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    cursor: pointer;
+}
+
+.plus-isi {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -96px;
+    left: -6px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.breeder-edit {
+    font-size: 18px;
+    font-family: arial;
+}
+
+.input-breeder-name {
+    width: 100%;
+    height: 35px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(199, 196, 196);
+    padding-left: 15px;
+}
+
+.input-breeder-name-about {
+    width: 100%;
+    height: 100px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(199, 196, 196);
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.input-breeder-name:focus {
+    outline: none;
+}
+
+.deks {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.deks-scroll {
+    overflow: auto;
+    width: 105%;
+}
+

@@ -1,0 +1,117 @@
+{
+    "galerys": [{
+        "galeri": [{
+                "id": 1,
+                "pict": "http://localhost:3001/img/satu.jpg",
+                "name": "Bryan",
+                "jarak": "10 Kilometer dari sini"
+            },
+            {
+                "id": 2,
+                "pict": "http://localhost:3001/img/tiga.jpg",
+                "name": "Toni",
+                "jarak": "7 Kilometer dari sini"
+            },
+            {
+                "id": 3,
+                "pict": "http://localhost:3001/img/empat.jpg",
+                "name": "Ambar",
+                "jarak": "3 Kilometer dari sini"
+            },
+            {
+                "id": 4,
+                "pict": "http://localhost:3001/img/lima.jpg",
+                "name": "Dave",
+                "jarak": " 4 Kilometer dari sini"
+            },
+            {
+                "id": 5,
+                "pict": "http://localhost:3001/img/enam.jpg",
+                "name": "Kunyuk",
+                "jarak": "9 Kilometer dari sini"
+            },
+            {
+                "id": 2,
+                "pict": "http://localhost:3001/img/tiga.jpg",
+                "name": "Toni",
+                "jarak": " 6.5 Kilometer dari sini"
+            },
+            {
+                "id": 3,
+                "pict": "http://localhost:3001/img/empat.jpg",
+                "name": "Ambar",
+                "jarak": " 2 Kilometer dari sini"
+            },
+            {
+                "id": 4,
+                "pict": "http://localhost:3001/img/lima.jpg",
+                "name": "Dave",
+                "jarak": "1 Kilometer dari sini"
+            },
+            {
+                "id": 5,
+                "pict": "http://localhost:3001/img/enam.jpg",
+                "name": "Kunyuk",
+                "jarak": "3.5 Kilometer dari sini"
+            }
+        ]
+    }],
+
+
+
+    "profile": [{
+        "name": "Meong",
+        "jenisHewan": "Cat",
+        "breeder": "Aziz Nur Abdul Q",
+        "jarak": "10 Centimeter Dari Sini",
+        "gender": "Male",
+        "Age": "Teeneger",
+        "phone": "+628997775669",
+        "about": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "pict": "http://localhost:3001/img/dua.jpg",
+        "email": "azizaqibs@gmail.com"
+    }],
+
+    "imageSwipe": [{
+            "pics": [
+                "http://localhost:3001/img/satu.jpg"
+            ],
+            "name": "Aksan",
+            "Breeder" : "Dave Purnama",
+            "distance" : "10 Kilometer dari sini"
+        },
+        {
+            "pics": [
+                "http://localhost:3001/img/tiga.jpg"
+            ],
+            "name": "Joey",
+            "Breeder" : "Doni Putra",
+            "distance" : "3 Kilometer dari sini"
+        },
+        {
+            "pics": [
+                "http://localhost:3001/img/empat.jpg"
+            ],
+            "name": "Rancho",
+            "Breeder" : "Hendar Saputra",
+            "distance" : "9 Kilometer dari sini"
+        },
+        {
+            "pics": [
+                "http://localhost:3001/img/lima.jpg"
+            ],
+            "name": "Raju",
+            "Breeder" : "Bryan O'aja",
+            "distance" : "5 Kilometer dari sini"
+        },
+        {
+            "pics": [
+                "http://localhost:3001/img/enam.jpg"
+            ],
+            "name": "Farhan",
+            "Breeder" : "Viru Shastrabuddi",
+            "distance" : "2 Kilometer dari sini"
+        }
+    ]
+
+}

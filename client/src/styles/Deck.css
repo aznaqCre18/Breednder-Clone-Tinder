@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior-y: contain;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  font-family: Raleway, sans-serif;
+  position: fixed;
+  overflow: hidden;
+}
+
+#slide {
+  background: rgba(250, 128, 114, 0);
+  position: fixed;
+  overflow: hidden;
+  right: 100px;
+  width: 50%;
+  height: 100%;
+  /* cursor: url("https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png")
+      39 39,
+    auto; */
+}
+
+#slide>div {
+  position: absolute;
+  width: 47vw;
+  height: 110%;
+  will-change: transform;
+  top: -120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#slide>div>div {
+  padding: 5px;
+  background-color: white;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 290px;
+  max-width: 300px;
+  height: 412px;
+  max-height: 600px;
+  will-change: transform;
+  border-radius: 5px;
+  box-shadow: 0 12.5px 18px -10px rgba(50, 50, 73, 0.4),
+    0 10px 10px -10px rgba(50, 50, 73, 0.3);
+}
+
+.imgCardSlider {
+  border-radius: 5px;
+  height: 500px !important;
+  width: 250px;
+}
+
+.slider-slide>img {
+  height: 400px;
+}
+
+button[aria-label="previous"],
+button[aria-label="next"] {
+  background: salmon !important;
+  color: black !important;
+  height: 35px;
+  font-size: 12px;
+}
+
+#slide>h2 {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: blueviolet;
+  position: absolute;
+}
+
+#slide>h2:nth-of-type(2) {
+  opacity: 0.7;
+  font-size: 1.35rem;
+  color: blue;
+}
+
+#slide>h5 {
+  margin-top: -15px;
+  margin-left: 2px;
+  color: lightgray;
+
+}
+
+#slide>h5:last-of-type {
+  color: darkgray;
+
+}
+
+#slide>.card>div {
+  height: 30px;
+}
+
+#slide>.card {
+  height: 400px;
+  font-size: 30px;
+
+}
+
+.slider-control-bottomcenter {
+  bottom: -15px !important;
+  opacity: 0;
+}
+
+#slide>.slider-control-bottomcenter>ul>li>button {
+  color: salmon !important;
+}
+
+#slide .isi-tulisan {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+}
+
+.slider-slide {
+  height: 400px;
+}
+
+.isi-tulisan h2 {
+  margin-left: 10px;
+}
+
+.isi-tulisan h5 {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.imgProfile {
+  width: 20px;
+  height: 20px;
+}
